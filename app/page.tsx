@@ -147,7 +147,7 @@ export default function Home() {
             
             {/* Tag/Pill untuk mempercantik (Mirip gaya di About) */}
             <div className="flex gap-2 mt-3">
-              <span className="bg-green-800/10 text-green-800 px-3 py-1 rounded-full text-xs ">2026 - Present</span>
+              <span className="bg-green-800/10 text-green-800 px-3 py-1 rounded-full text-xs font-medium">2026 - Present</span>
               <span className="bg-white border border-gray-300 px-3 py-1 rounded-full text-xs text-gray-600">Internship</span>
             </div>
           </div>
