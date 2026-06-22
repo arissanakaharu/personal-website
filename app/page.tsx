@@ -12,7 +12,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-8 py-5 flex justify-between items-center relative">
           
           {/* Sisi Kiri: Nama */}
-          <span className="font-serif text-xl font-semibold">Hanunnisa Nurzahra Putri Diar</span>
+          <span className="font-serif text-xl font-semibold">HD's Page!</span>
           
           {/* Sisi Kanan: Tombol Menu Garis Tiga */}
           <div className="relative">
@@ -112,25 +112,28 @@ export default function Home() {
       </section>
 
       {/* About + Skills */}
-      <section id="about" className="py-24 max-w-6xl mx-auto px-8 border-t border-gray-200">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-          <div>
-            <h2 className="font-serif text-3xl font-bold">About Me</h2>
-          </div>
-          <div className="md:col-span-2">
-            <p className="text-gray-500 leading-relaxed mb-8">
-              I'm a computer science student at Universitas Indonesia. I'm interested in the fields of software development, web development, data, and machine learning.
-            </p>
-            <div className="flex flex-wrap gap-3">
-              {["Flutterflow", "Flet","Firebase", "Docker","Tailwind CSS", " TypeScript", "Git/GitHub", "JavaScript", "React", "Next.js", "Python", "Excel/Spreadsheet"].map((skill) => (
-                <span key={skill} className="bg-white border border-gray-200 px-4 py-1.5 rounded-full text-sm text-gray-600">
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+<section id="about" className="py-24 max-w-6xl mx-auto px-8 border-t border-gray-200">
+  <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+    <div>
+      <h2 className="font-serif text-3xl font-bold">About Me</h2>
+    </div>
+    <div className="md:col-span-2">
+      <p className="text-gray-500 leading-relaxed mb-8">
+        I'm a computer science student at Universitas Indonesia. I'm interested in the fields of software development, web development, data, and machine learning.
+      </p>
+      <div className="flex flex-wrap gap-3 items-center">
+        {["Flutterflow", "Flet", "Firebase", "Docker", "Tailwind CSS", "TypeScript", "Git/GitHub", "JavaScript", "React", "Next.js", "Python", "Excel/Spreadsheet"].map((skill) => (
+          <span key={skill} className="bg-white border border-gray-200 px-4 py-1.5 rounded-full text-sm text-gray-600">
+            {skill}
+          </span>
+        ))} 
+      </div>
+      <div className="flex justify-center mt-2">
+        <a href= "https://canva.link/xkxnx3qnt1rroax" target="_blank" rel="noopener noreferrer" className="mt-8 inline-block bg-green-800 text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-green-700 transition-colors">My CV</a>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* Section: Experience & Education */}
       <section className="max-w-6xl mx-auto px-8 py-16 border-t border-gray-200/60">
@@ -138,7 +141,7 @@ export default function Home() {
         {/* 1. Baris Pengalaman Kerja */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Kolom Kiri: Judul */}
-          <h2 className="font-serif text-2xl font-semibold text-gray-900">Experience</h2>
+          <h2 className="font-serif text-3xl font-bold">Experience</h2>
           
           {/* Kolom Kanan: Detail Pengalaman */}
           <div className="md:col-span-2">
@@ -159,7 +162,7 @@ export default function Home() {
         {/* 2. Baris Pendidikan */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Kolom Kiri: Judul */}
-          <h2 className="font-serif text-2xl font-semibold text-gray-900">Education</h2>
+          <h2 className="font-serif text-3xl font-bold">Education</h2>
           
           {/* Kolom Kanan: Detail Pendidikan */}
           <div className="md:col-span-2">
