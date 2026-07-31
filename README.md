@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
 
 # Hanunnisa Diar - Personal Portfolio Website
@@ -8,18 +6,6 @@ profesional, pengalaman (Data Analyst Intern di Redcomm), riwayat pendidikan
 (Ilmu Komputer UI), dan proyek teknologi.
 ## Live Preview
 [https://hanunnisa-diar.vercel.app/](https://hanunnisa-diar.vercel.app/)
-•
-
-•
-
-•
-◦
-
-◦
-
-•
-
-•
 
 ## Tech Stack
 - **Framework:** Next.js (React)
@@ -52,6 +38,8 @@ npm install
 npm run dev
 ```
 5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
+   
 ## License
 © 2026 Hanunnisa Diar. All rights reserved.
+
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
