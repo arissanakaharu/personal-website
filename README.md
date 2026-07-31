@@ -1,9 +1,7 @@
-## Getting Started
+## Introduction
 
-# Hanunnisa Diar - Personal Portfolio Website
-Website portofolio interaktif yang dirancang untuk menampilkan profil
-profesional, pengalaman (Data Analyst Intern di Redcomm), riwayat pendidikan
-(Ilmu Komputer UI), dan proyek teknologi.
+An interactive portfolio website designed to showcase my professional profile, work experience (Data Analyst Intern at Redcomm), educational background (Computer Science, University of Indonesia), and technology projects.
+
 ## Live Preview
 [https://hanunnisa-diar.vercel.app/](https://hanunnisa-diar.vercel.app/)
 
@@ -12,20 +10,19 @@ profesional, pengalaman (Data Analyst Intern di Redcomm), riwayat pendidikan
 - **Styling:** Tailwind CSS
 - **Deployment:** Vercel
 ## Key Features
-- **Responsive Design:** Tampilan dioptimalkan untuk perangkat mobile maupun
-desktop.
-- **Hero & About Section:** Ringkasan profil, minat, dan teknologi yang
-dikuasai.
-- **Projects Showcase:** Penjelasan proyek pengembangan (contoh: aplikasi
-DIMPLE).
-- **Social Links:** Akses cepat ke GitHub, LinkedIn, Instagram, dan Email.
-## Getting Started (Local Development)
-Ikuti langkah-langkah berikut untuk menjalankan website di komputer lokal:
+- Responsive Design: The layout is optimized for both mobile and desktop devices.
+- Hero & About Section: A summary of my profile, interests, and technical skills.
+- Projects Showcase: Descriptions of development projects (e.g., the DIMPLE app).
+- Social Links: Quick access to GitHub, LinkedIn, Instagram, and email.
+
+## Getting Started
+Follow these steps to run the website on your local computer:
+
 1. **Clone repository:**
 ```bash
 git clone https://github.com/arissanakaharu/portfolio.git
 ```
-2. **Masuk ke direktori:**
+2. **Go ke direktori:**
 ```bash
 cd portfolio
 ```
@@ -33,13 +30,13 @@ cd portfolio
 ```bash
 npm install
 ```
-4. **Jalankan development server:**
+4. **Run development server:**
 ```bash
 npm run dev
 ```
-5. Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
    
-## License
+## 📄 License
 © 2026 Hanunnisa Diar. All rights reserved.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
