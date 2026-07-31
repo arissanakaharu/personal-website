@@ -22,7 +22,7 @@ Follow these steps to run the website on your local computer:
 ```bash
 git clone https://github.com/arissanakaharu/portfolio.git
 ```
-2. **Go to direktory:**
+2. **Go to directory:**
 ```bash
 cd portfolio
 ```
