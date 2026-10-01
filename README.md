@@ -1,6 +1,6 @@
 ## Introduction
 
-An interactive portfolio website designed to showcase my professional profile, work experience (Data Analyst Intern at Redcomm), educational background (Computer Science, University of Indonesia), and technology projects.
+An interactive portfolio website designed to showcase my professional profile, work experience, educational background (Computer Science, University of Indonesia), and technology projects.
 
 ## Live Preview
 [https://hanunnisa-diar.vercel.app/](https://hanunnisa-diar.vercel.app/)
